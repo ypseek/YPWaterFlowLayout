@@ -1,0 +1,576 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		785A93DD214C075100E16E70 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 785A93DC214C075100E16E70 /* AppDelegate.m */; };
+		785A93E0214C075100E16E70 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 785A93DF214C075100E16E70 /* ViewController.m */; };
+		785A93E3214C075100E16E70 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 785A93E1214C075100E16E70 /* Main.storyboard */; };
+		785A93E5214C075200E16E70 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 785A93E4214C075200E16E70 /* Assets.xcassets */; };
+		785A93E8214C075200E16E70 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 785A93E6214C075200E16E70 /* LaunchScreen.storyboard */; };
+		785A93EB214C075200E16E70 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 785A93EA214C075200E16E70 /* main.m */; };
+		785A93F5214C075200E16E70 /* YPWaterFlowLayoutTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 785A93F4214C075200E16E70 /* YPWaterFlowLayoutTests.m */; };
+		785A9400214C075200E16E70 /* YPWaterFlowLayoutUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 785A93FF214C075200E16E70 /* YPWaterFlowLayoutUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		785A93F1214C075200E16E70 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 785A93D0214C075100E16E70 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 785A93D7214C075100E16E70;
+			remoteInfo = YPWaterFlowLayout;
+		};
+		785A93FC214C075200E16E70 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 785A93D0214C075100E16E70 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 785A93D7214C075100E16E70;
+			remoteInfo = YPWaterFlowLayout;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		785A93D8214C075100E16E70 /* YPWaterFlowLayout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YPWaterFlowLayout.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		785A93DB214C075100E16E70 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		785A93DC214C075100E16E70 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		785A93DE214C075100E16E70 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		785A93DF214C075100E16E70 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		785A93E2214C075100E16E70 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		785A93E4214C075200E16E70 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		785A93E7214C075200E16E70 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		785A93E9214C075200E16E70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		785A93EA214C075200E16E70 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		785A93F0214C075200E16E70 /* YPWaterFlowLayoutTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YPWaterFlowLayoutTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		785A93F4214C075200E16E70 /* YPWaterFlowLayoutTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YPWaterFlowLayoutTests.m; sourceTree = "<group>"; };
+		785A93F6214C075200E16E70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		785A93FB214C075200E16E70 /* YPWaterFlowLayoutUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YPWaterFlowLayoutUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		785A93FF214C075200E16E70 /* YPWaterFlowLayoutUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YPWaterFlowLayoutUITests.m; sourceTree = "<group>"; };
+		785A9401214C075200E16E70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		785A93D5214C075100E16E70 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		785A93ED214C075200E16E70 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		785A93F8214C075200E16E70 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		785A93CF214C075100E16E70 = {
+			isa = PBXGroup;
+			children = (
+				785A93DA214C075100E16E70 /* YPWaterFlowLayout */,
+				785A93F3214C075200E16E70 /* YPWaterFlowLayoutTests */,
+				785A93FE214C075200E16E70 /* YPWaterFlowLayoutUITests */,
+				785A93D9214C075100E16E70 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		785A93D9214C075100E16E70 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				785A93D8214C075100E16E70 /* YPWaterFlowLayout.app */,
+				785A93F0214C075200E16E70 /* YPWaterFlowLayoutTests.xctest */,
+				785A93FB214C075200E16E70 /* YPWaterFlowLayoutUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		785A93DA214C075100E16E70 /* YPWaterFlowLayout */ = {
+			isa = PBXGroup;
+			children = (
+				785A93DB214C075100E16E70 /* AppDelegate.h */,
+				785A93DC214C075100E16E70 /* AppDelegate.m */,
+				785A93DE214C075100E16E70 /* ViewController.h */,
+				785A93DF214C075100E16E70 /* ViewController.m */,
+				785A93E1214C075100E16E70 /* Main.storyboard */,
+				785A93E4214C075200E16E70 /* Assets.xcassets */,
+				785A93E6214C075200E16E70 /* LaunchScreen.storyboard */,
+				785A93E9214C075200E16E70 /* Info.plist */,
+				785A93EA214C075200E16E70 /* main.m */,
+			);
+			path = YPWaterFlowLayout;
+			sourceTree = "<group>";
+		};
+		785A93F3214C075200E16E70 /* YPWaterFlowLayoutTests */ = {
+			isa = PBXGroup;
+			children = (
+				785A93F4214C075200E16E70 /* YPWaterFlowLayoutTests.m */,
+				785A93F6214C075200E16E70 /* Info.plist */,
+			);
+			path = YPWaterFlowLayoutTests;
+			sourceTree = "<group>";
+		};
+		785A93FE214C075200E16E70 /* YPWaterFlowLayoutUITests */ = {
+			isa = PBXGroup;
+			children = (
+				785A93FF214C075200E16E70 /* YPWaterFlowLayoutUITests.m */,
+				785A9401214C075200E16E70 /* Info.plist */,
+			);
+			path = YPWaterFlowLayoutUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		785A93D7214C075100E16E70 /* YPWaterFlowLayout */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 785A9404214C075200E16E70 /* Build configuration list for PBXNativeTarget "YPWaterFlowLayout" */;
+			buildPhases = (
+				785A93D4214C075100E16E70 /* Sources */,
+				785A93D5214C075100E16E70 /* Frameworks */,
+				785A93D6214C075100E16E70 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YPWaterFlowLayout;
+			productName = YPWaterFlowLayout;
+			productReference = 785A93D8214C075100E16E70 /* YPWaterFlowLayout.app */;
+			productType = "com.apple.product-type.application";
+		};
+		785A93EF214C075200E16E70 /* YPWaterFlowLayoutTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 785A9407214C075200E16E70 /* Build configuration list for PBXNativeTarget "YPWaterFlowLayoutTests" */;
+			buildPhases = (
+				785A93EC214C075200E16E70 /* Sources */,
+				785A93ED214C075200E16E70 /* Frameworks */,
+				785A93EE214C075200E16E70 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				785A93F2214C075200E16E70 /* PBXTargetDependency */,
+			);
+			name = YPWaterFlowLayoutTests;
+			productName = YPWaterFlowLayoutTests;
+			productReference = 785A93F0214C075200E16E70 /* YPWaterFlowLayoutTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		785A93FA214C075200E16E70 /* YPWaterFlowLayoutUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 785A940A214C075200E16E70 /* Build configuration list for PBXNativeTarget "YPWaterFlowLayoutUITests" */;
+			buildPhases = (
+				785A93F7214C075200E16E70 /* Sources */,
+				785A93F8214C075200E16E70 /* Frameworks */,
+				785A93F9214C075200E16E70 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				785A93FD214C075200E16E70 /* PBXTargetDependency */,
+			);
+			name = YPWaterFlowLayoutUITests;
+			productName = YPWaterFlowLayoutUITests;
+			productReference = 785A93FB214C075200E16E70 /* YPWaterFlowLayoutUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		785A93D0214C075100E16E70 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = seek;
+				TargetAttributes = {
+					785A93D7214C075100E16E70 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					785A93EF214C075200E16E70 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 785A93D7214C075100E16E70;
+					};
+					785A93FA214C075200E16E70 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 785A93D7214C075100E16E70;
+					};
+				};
+			};
+			buildConfigurationList = 785A93D3214C075100E16E70 /* Build configuration list for PBXProject "YPWaterFlowLayout" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 785A93CF214C075100E16E70;
+			productRefGroup = 785A93D9214C075100E16E70 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				785A93D7214C075100E16E70 /* YPWaterFlowLayout */,
+				785A93EF214C075200E16E70 /* YPWaterFlowLayoutTests */,
+				785A93FA214C075200E16E70 /* YPWaterFlowLayoutUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		785A93D6214C075100E16E70 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				785A93E8214C075200E16E70 /* LaunchScreen.storyboard in Resources */,
+				785A93E5214C075200E16E70 /* Assets.xcassets in Resources */,
+				785A93E3214C075100E16E70 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		785A93EE214C075200E16E70 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		785A93F9214C075200E16E70 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		785A93D4214C075100E16E70 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				785A93E0214C075100E16E70 /* ViewController.m in Sources */,
+				785A93EB214C075200E16E70 /* main.m in Sources */,
+				785A93DD214C075100E16E70 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		785A93EC214C075200E16E70 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				785A93F5214C075200E16E70 /* YPWaterFlowLayoutTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		785A93F7214C075200E16E70 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				785A9400214C075200E16E70 /* YPWaterFlowLayoutUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		785A93F2214C075200E16E70 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 785A93D7214C075100E16E70 /* YPWaterFlowLayout */;
+			targetProxy = 785A93F1214C075200E16E70 /* PBXContainerItemProxy */;
+		};
+		785A93FD214C075200E16E70 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 785A93D7214C075100E16E70 /* YPWaterFlowLayout */;
+			targetProxy = 785A93FC214C075200E16E70 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		785A93E1214C075100E16E70 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				785A93E2214C075100E16E70 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		785A93E6214C075200E16E70 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				785A93E7214C075200E16E70 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		785A9402214C075200E16E70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		785A9403214C075200E16E70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		785A9405214C075200E16E70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = YPWaterFlowLayout/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = seek.YPWaterFlowLayout;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		785A9406214C075200E16E70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = YPWaterFlowLayout/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = seek.YPWaterFlowLayout;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		785A9408214C075200E16E70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = YPWaterFlowLayoutTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = seek.YPWaterFlowLayoutTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YPWaterFlowLayout.app/YPWaterFlowLayout";
+			};
+			name = Debug;
+		};
+		785A9409214C075200E16E70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = YPWaterFlowLayoutTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = seek.YPWaterFlowLayoutTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YPWaterFlowLayout.app/YPWaterFlowLayout";
+			};
+			name = Release;
+		};
+		785A940B214C075200E16E70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = YPWaterFlowLayoutUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = seek.YPWaterFlowLayoutUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = YPWaterFlowLayout;
+			};
+			name = Debug;
+		};
+		785A940C214C075200E16E70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = YPWaterFlowLayoutUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = seek.YPWaterFlowLayoutUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = YPWaterFlowLayout;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		785A93D3214C075100E16E70 /* Build configuration list for PBXProject "YPWaterFlowLayout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				785A9402214C075200E16E70 /* Debug */,
+				785A9403214C075200E16E70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		785A9404214C075200E16E70 /* Build configuration list for PBXNativeTarget "YPWaterFlowLayout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				785A9405214C075200E16E70 /* Debug */,
+				785A9406214C075200E16E70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		785A9407214C075200E16E70 /* Build configuration list for PBXNativeTarget "YPWaterFlowLayoutTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				785A9408214C075200E16E70 /* Debug */,
+				785A9409214C075200E16E70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		785A940A214C075200E16E70 /* Build configuration list for PBXNativeTarget "YPWaterFlowLayoutUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				785A940B214C075200E16E70 /* Debug */,
+				785A940C214C075200E16E70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 785A93D0214C075100E16E70 /* Project object */;
+}
