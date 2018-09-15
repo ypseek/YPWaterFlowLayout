@@ -15,6 +15,14 @@
 		785A93EB214C075200E16E70 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 785A93EA214C075200E16E70 /* main.m */; };
 		785A93F5214C075200E16E70 /* YPWaterFlowLayoutTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 785A93F4214C075200E16E70 /* YPWaterFlowLayoutTests.m */; };
 		785A9400214C075200E16E70 /* YPWaterFlowLayoutUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 785A93FF214C075200E16E70 /* YPWaterFlowLayoutUITests.m */; };
+		785A9410214C078C00E16E70 /* YPWaterFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 785A940F214C078C00E16E70 /* YPWaterFlowLayout.m */; };
+		785A9413214C0B4E00E16E70 /* YPImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 785A9412214C0B4E00E16E70 /* YPImage.m */; };
+		785A9417214C0B9900E16E70 /* YPCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 785A9414214C0B9900E16E70 /* YPCollectionViewCell.xib */; };
+		785A9418214C0B9900E16E70 /* YPCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 785A9415214C0B9900E16E70 /* YPCollectionViewCell.m */; };
+		785A941A214CF67900E16E70 /* 1.plist in Resources */ = {isa = PBXBuildFile; fileRef = 785A9419214CF67800E16E70 /* 1.plist */; };
+		7893A79E214CFC6300A398FD /* YPCollectionReusableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7893A79C214CFC6300A398FD /* YPCollectionReusableView.m */; };
+		7893A79F214CFC6300A398FD /* YPCollectionReusableView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7893A79D214CFC6300A398FD /* YPCollectionReusableView.xib */; };
+		FFD641441AAF94D0324F28B5 /* libPods-YPWaterFlowLayout.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EBC408E55BFA6BBBDCB17096 /* libPods-YPWaterFlowLayout.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +43,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0DC987579B51A885C206E86B /* Pods-YPWaterFlowLayout.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YPWaterFlowLayout.release.xcconfig"; path = "Pods/Target Support Files/Pods-YPWaterFlowLayout/Pods-YPWaterFlowLayout.release.xcconfig"; sourceTree = "<group>"; };
 		785A93D8214C075100E16E70 /* YPWaterFlowLayout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YPWaterFlowLayout.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		785A93DB214C075100E16E70 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		785A93DC214C075100E16E70 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +60,19 @@
 		785A93FB214C075200E16E70 /* YPWaterFlowLayoutUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YPWaterFlowLayoutUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		785A93FF214C075200E16E70 /* YPWaterFlowLayoutUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YPWaterFlowLayoutUITests.m; sourceTree = "<group>"; };
 		785A9401214C075200E16E70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		785A940E214C078C00E16E70 /* YPWaterFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YPWaterFlowLayout.h; sourceTree = "<group>"; };
+		785A940F214C078C00E16E70 /* YPWaterFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YPWaterFlowLayout.m; sourceTree = "<group>"; };
+		785A9411214C0B4E00E16E70 /* YPImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YPImage.h; sourceTree = "<group>"; };
+		785A9412214C0B4E00E16E70 /* YPImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YPImage.m; sourceTree = "<group>"; };
+		785A9414214C0B9900E16E70 /* YPCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YPCollectionViewCell.xib; sourceTree = "<group>"; };
+		785A9415214C0B9900E16E70 /* YPCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YPCollectionViewCell.m; sourceTree = "<group>"; };
+		785A9416214C0B9900E16E70 /* YPCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YPCollectionViewCell.h; sourceTree = "<group>"; };
+		785A9419214CF67800E16E70 /* 1.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = 1.plist; sourceTree = "<group>"; };
+		7893A79B214CFC6300A398FD /* YPCollectionReusableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YPCollectionReusableView.h; sourceTree = "<group>"; };
+		7893A79C214CFC6300A398FD /* YPCollectionReusableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YPCollectionReusableView.m; sourceTree = "<group>"; };
+		7893A79D214CFC6300A398FD /* YPCollectionReusableView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = YPCollectionReusableView.xib; sourceTree = "<group>"; };
+		9A828B1DCDB4B83B2A67048B /* Pods-YPWaterFlowLayout.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YPWaterFlowLayout.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YPWaterFlowLayout/Pods-YPWaterFlowLayout.debug.xcconfig"; sourceTree = "<group>"; };
+		EBC408E55BFA6BBBDCB17096 /* libPods-YPWaterFlowLayout.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YPWaterFlowLayout.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FFD641441AAF94D0324F28B5 /* libPods-YPWaterFlowLayout.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +101,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		29EA151EFD7FCC150D03AF98 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EBC408E55BFA6BBBDCB17096 /* libPods-YPWaterFlowLayout.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		785A93CF214C075100E16E70 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +116,8 @@
 				785A93F3214C075200E16E70 /* YPWaterFlowLayoutTests */,
 				785A93FE214C075200E16E70 /* YPWaterFlowLayoutUITests */,
 				785A93D9214C075100E16E70 /* Products */,
+				A48E09A6770782C8CAD45D71 /* Pods */,
+				29EA151EFD7FCC150D03AF98 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,10 +134,20 @@
 		785A93DA214C075100E16E70 /* YPWaterFlowLayout */ = {
 			isa = PBXGroup;
 			children = (
+				785A940D214C077C00E16E70 /* YPWaterFlowLayout */,
 				785A93DB214C075100E16E70 /* AppDelegate.h */,
 				785A93DC214C075100E16E70 /* AppDelegate.m */,
 				785A93DE214C075100E16E70 /* ViewController.h */,
 				785A93DF214C075100E16E70 /* ViewController.m */,
+				785A9411214C0B4E00E16E70 /* YPImage.h */,
+				785A9412214C0B4E00E16E70 /* YPImage.m */,
+				785A9416214C0B9900E16E70 /* YPCollectionViewCell.h */,
+				785A9415214C0B9900E16E70 /* YPCollectionViewCell.m */,
+				785A9414214C0B9900E16E70 /* YPCollectionViewCell.xib */,
+				7893A79B214CFC6300A398FD /* YPCollectionReusableView.h */,
+				7893A79C214CFC6300A398FD /* YPCollectionReusableView.m */,
+				7893A79D214CFC6300A398FD /* YPCollectionReusableView.xib */,
+				785A9419214CF67800E16E70 /* 1.plist */,
 				785A93E1214C075100E16E70 /* Main.storyboard */,
 				785A93E4214C075200E16E70 /* Assets.xcassets */,
 				785A93E6214C075200E16E70 /* LaunchScreen.storyboard */,
@@ -132,6 +175,24 @@
 			path = YPWaterFlowLayoutUITests;
 			sourceTree = "<group>";
 		};
+		785A940D214C077C00E16E70 /* YPWaterFlowLayout */ = {
+			isa = PBXGroup;
+			children = (
+				785A940E214C078C00E16E70 /* YPWaterFlowLayout.h */,
+				785A940F214C078C00E16E70 /* YPWaterFlowLayout.m */,
+			);
+			path = YPWaterFlowLayout;
+			sourceTree = "<group>";
+		};
+		A48E09A6770782C8CAD45D71 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9A828B1DCDB4B83B2A67048B /* Pods-YPWaterFlowLayout.debug.xcconfig */,
+				0DC987579B51A885C206E86B /* Pods-YPWaterFlowLayout.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,9 +200,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 785A9404214C075200E16E70 /* Build configuration list for PBXNativeTarget "YPWaterFlowLayout" */;
 			buildPhases = (
+				98C4FD67D978E4D79E78B173 /* [CP] Check Pods Manifest.lock */,
 				785A93D4214C075100E16E70 /* Sources */,
 				785A93D5214C075100E16E70 /* Frameworks */,
 				785A93D6214C075100E16E70 /* Resources */,
+				C227956E177F3D39C9711D5C /* [CP] Embed Pods Frameworks */,
+				4BD852CE9D950BCB1939D517 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -235,8 +299,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				785A941A214CF67900E16E70 /* 1.plist in Resources */,
 				785A93E8214C075200E16E70 /* LaunchScreen.storyboard in Resources */,
+				7893A79F214CFC6300A398FD /* YPCollectionReusableView.xib in Resources */,
 				785A93E5214C075200E16E70 /* Assets.xcassets in Resources */,
+				785A9417214C0B9900E16E70 /* YPCollectionViewCell.xib in Resources */,
 				785A93E3214C075100E16E70 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -257,14 +324,69 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4BD852CE9D950BCB1939D517 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YPWaterFlowLayout/Pods-YPWaterFlowLayout-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		98C4FD67D978E4D79E78B173 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YPWaterFlowLayout-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C227956E177F3D39C9711D5C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YPWaterFlowLayout/Pods-YPWaterFlowLayout-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		785A93D4214C075100E16E70 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				785A9410214C078C00E16E70 /* YPWaterFlowLayout.m in Sources */,
 				785A93E0214C075100E16E70 /* ViewController.m in Sources */,
+				785A9413214C0B4E00E16E70 /* YPImage.m in Sources */,
 				785A93EB214C075200E16E70 /* main.m in Sources */,
+				785A9418214C0B9900E16E70 /* YPCollectionViewCell.m in Sources */,
 				785A93DD214C075100E16E70 /* AppDelegate.m in Sources */,
+				7893A79E214CFC6300A398FD /* YPCollectionReusableView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -431,6 +553,7 @@
 		};
 		785A9405214C075200E16E70 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A828B1DCDB4B83B2A67048B /* Pods-YPWaterFlowLayout.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -447,6 +570,7 @@
 		};
 		785A9406214C075200E16E70 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0DC987579B51A885C206E86B /* Pods-YPWaterFlowLayout.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
